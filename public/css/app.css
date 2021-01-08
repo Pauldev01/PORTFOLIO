@@ -1,1 +1,228 @@
-/* No CSS */
+.bgbody {
+  background-color: #040d15;
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham-Light";
+}
+
+.canva1 {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+#scrollPath {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  z-index: 3;
+}
+
+#progressbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  z-index: 10;
+}
+
+#progressbar:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(10px);
+}
+
+#progressbar:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(30px);
+}
+
+.buttonsnav {
+  width: 25vw;
+}
+
+.buttonsnav h4 {
+  margin-top: 2vh;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  color: white !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  overflow: hidden;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  border: solid white 1px;
+  background: linear-gradient(90deg, #2d7dbe, #6e0c56);
+}
+
+span {
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.color {
+  background-color: #6a4cd8;
+}
+
+.sectionParalax {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionParalax #secondPlan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.sectionParalax #firstPlan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.sectionParalax #moon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.sectionParalax h2 {
+  margin-top: 8vh;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 6em;
+  z-index: 2;
+  color: white;
+  top: 0.5%;
+  font-family: "Gotham-Xlight";
+}
+
+.sectionParalax h3 {
+  margin-top: 18vh;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 6em;
+  z-index: 2;
+  color: white;
+  top: 2.5%;
+  font-family: "Gotham-Thin";
+}
+
+.sectionParalax:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #04111b, transparent);
+  z-index: 10000;
+}
+
+.sectionParalax:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(#04111b);
+  z-index: 10000;
+  mix-blend-mode: color;
+}
+
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url(../../../public/font/Gotham-Black.otf);
+}
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url(../../../public/font/Gotham-Light.otf);
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url(../../../public/font/GothamBook.ttf);
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url(../../../public/font/GothamMedium.ttf);
+}
+
+@font-face {
+  font-family: 'Gotham-Medium_1';
+  src: url(../../../public/font/GothamMedium_1.ttf);
+}
+
+@font-face {
+  font-family: 'Gotham-Thin';
+  src: url(../../../public/font/Gotham-Thin.otf);
+}
+
+@font-face {
+  font-family: 'Gotham-XLight';
+  src: url(../../../public/font/Gotham-XLight.otf);
+}
