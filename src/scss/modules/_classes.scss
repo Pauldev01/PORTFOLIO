@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Gotham-Light";
+    scroll-behavior: smooth;
 }
 .canva1{
     width: 100%;
@@ -24,7 +25,7 @@
     top: 0;
     right: 0;
     width: 10px;
-    background: linear-gradient(to top,#008aff,#00ffe7);
+    background: linear-gradient(to top,#cc00ff,#00ffe7);
     z-index: 10;
     // animation : animate 5s linear infinite;
 }
@@ -59,4 +60,68 @@
     height: 100%;
     background: linear-gradient(to top,#008aff,#00ffe7);
     filter: blur(30px)
+}
+
+//boddy front page
+.work{
+    button{
+        width: 13vw;
+    background: linear-gradient(90deg,#6e0c56,#2d7dbe);
+    color: white;
+    border: white solid 1px;
+    // padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 5vw;
+    }
+}
+.caminar{
+    background-image: url("/public/image/caminar.png");
+    border-radius: 10px;
+    padding: 5px;
+    height: 48vh;
+    width: 85%;
+    margin-right: 1vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.chef{
+    background-image: url("/public/image/SiteChef.png");
+    border-radius: 10px;
+    padding: 5px;
+    height: 48vh;
+    width: 85%;
+    margin-right: 1vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.SIMON{
+    background-image: url("/public/image/SIMON.png");
+    border-radius: 10px;
+    padding: 5px;
+    height: 48vh;
+    width: 85%;
+    margin-right: 1vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.todolist{
+    background-image: url("/public/image/todolist.png");
+    border-radius: 10px;
+    padding: 5px;
+    height: 48vh;
+    width: 85%;
+    margin-right: 1vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.youComunik{
+    background-image: url("/public/image/youComunik.png");
+    border-radius: 10px;
+    padding: 5px;
+    height: 48vh;
+    width: 85%;
+    margin-right: 1vw;
+    background-repeat: no-repeat;
+    background-size: contain;
 }

@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Gotham-Light";
+  scroll-behavior: smooth;
 }
 
 .canva1 {
@@ -28,7 +29,7 @@
   top: 0;
   right: 0;
   width: 10px;
-  background: linear-gradient(to top, #008aff, #00ffe7);
+  background: linear-gradient(to top, #cc00ff, #00ffe7);
   z-index: 10;
 }
 
@@ -54,6 +55,92 @@
   filter: blur(30px);
 }
 
+.work button {
+  width: 13vw;
+  background: linear-gradient(90deg, #6e0c56, #2d7dbe);
+  color: white;
+  border: white solid 1px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: 5vw;
+}
+
+.caminar {
+  background-image: url("/public/image/caminar.png");
+  border-radius: 10px;
+  padding: 5px;
+  height: 48vh;
+  width: 85%;
+  margin-right: 1vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chef {
+  background-image: url("/public/image/SiteChef.png");
+  border-radius: 10px;
+  padding: 5px;
+  height: 48vh;
+  width: 85%;
+  margin-right: 1vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.SIMON {
+  background-image: url("/public/image/SIMON.png");
+  border-radius: 10px;
+  padding: 5px;
+  height: 48vh;
+  width: 85%;
+  margin-right: 1vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.todolist {
+  background-image: url("/public/image/todolist.png");
+  border-radius: 10px;
+  padding: 5px;
+  height: 48vh;
+  width: 85%;
+  margin-right: 1vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.youComunik {
+  background-image: url("/public/image/youComunik.png");
+  border-radius: 10px;
+  padding: 5px;
+  height: 48vh;
+  width: 85%;
+  margin-right: 1vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contactButton {
+  width: 10vw;
+  background: linear-gradient(90deg, #6e0c56, #2d7dbe);
+  color: white;
+  border: solid white 2px;
+  padding: 1%;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.footer {
+  border-top: white solid 2px;
+  margin-top: 2vh;
+  color: white;
+  background-color: rgba(8, 7, 20, 0.582);
+}
+
+.footer .footertext {
+  font-size: 50px;
+}
+
 .buttonsnav {
   width: 25vw;
 }
@@ -75,7 +162,7 @@ a {
   overflow: hidden;
   letter-spacing: 2px;
   border-radius: 40px;
-  border: solid white 1px;
+  border: solid white 2px;
   background: linear-gradient(90deg, #2d7dbe, #6e0c56);
 }
 
@@ -157,6 +244,7 @@ span {
   color: white;
   top: 0.5%;
   font-family: "Gotham-Xlight";
+  text-shadow: 0.04em 0em #c26425be;
 }
 
 .sectionParalax h3 {
@@ -175,7 +263,7 @@ span {
   content: '';
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 98.58%;
   height: 100px;
   background: linear-gradient(to top, #04111b, transparent);
   z-index: 10000;
@@ -190,6 +278,10 @@ span {
   background: linear-gradient(#04111b);
   z-index: 10000;
   mix-blend-mode: color;
+}
+
+.caminar {
+  background-image: "public\image\caminar.png";
 }
 
 @font-face {

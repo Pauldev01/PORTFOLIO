@@ -1,0 +1,19 @@
+//footer
+.contactButton{
+    width: 10vw;
+    background: linear-gradient(90deg,#6e0c56,#2d7dbe);
+    color: white;
+    border: solid white 2px;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.footer{
+    border-top: white solid 2px;
+    margin-top: 2vh;
+    color: white;
+    background-color: rgba(8, 7, 20, 0.582);
+    .footertext{
+        font-size: 50px;
+    }
+}
